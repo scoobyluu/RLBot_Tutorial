@@ -10,7 +10,7 @@ namespace Bot
 
         public SkillManager()
         {
-            _currentSkill = new EmptySkill();
+            _currentSkill = new ExampleSkill();
         }
 
         public void SetSkill(ISkill skill)
